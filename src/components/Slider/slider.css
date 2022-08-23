@@ -1,0 +1,25 @@
+.sliderHome {
+    filter: blur(0.3rem);
+}
+
+.swiper-slide {
+    width: 100vw;
+    height: 100vh;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    cursor: grab;
+}
+
+span.swiper-pagination-bullet {
+    background: var(--cor-complemento);
+}
+
+div.swiper-button-prev, div.swiper-button-next {
+    color: var(--cor-complemento);
+}
