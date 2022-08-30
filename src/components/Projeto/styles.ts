@@ -32,6 +32,7 @@ export const ImagemProjeto = styled.img`
     height: 7rem;
     border-radius: 5px;
     margin-top: 1.5rem;
+    margin-right: 1rem;
     transition: .2s;
     cursor: pointer;
     opacity: 0.8;

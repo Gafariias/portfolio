@@ -6,6 +6,10 @@ export const Container = styled.div`
     width: 56rem;
     height: 65vh;
     margin: auto;
+
+    @media only screen and (max-width: 920px) {
+        width: 100%;
+    }
 `;
 
 export const Content = styled.main`

@@ -11,12 +11,8 @@ export function ProjetosContent() {
             
             <h1>Projetos</h1>
             <Content>
-                
-
                 <ContainerProjetos>
                     
-                    
-
                     <Projeto 
                         path="2"
                         link="https://gafariias.github.io/stackx_list_react/"

@@ -12,6 +12,10 @@ export const Container = styled.div`
     display: flex;
     justify-content: flex-end;
 
+    @media only screen and (max-width: 750px) {
+        display: none;
+    }
+
     
 `;
 

@@ -10,6 +10,10 @@ export const Container = styled.main`
 
     display: flex;
     flex-direction: column;
+
+    @media only screen and (max-width: 920px) {
+        width: 100vw;
+    }
 `;
 
 export const Content = styled.div`
@@ -20,8 +24,7 @@ export const Content = styled.div`
         
         display: flex;
         justify-content: flex-end;
-        
-
+    
         a {    
             text-align: right;
             text-decoration: none;
@@ -42,4 +45,10 @@ export const ContainerProjetos = styled.div`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    margin: auto;
+
+    @media only screen and (max-width: 880px) {
+        justify-content: center;
+    }
 `;

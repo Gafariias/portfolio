@@ -7,6 +7,10 @@ export const Principal = styled.div`
 
 export const SobreMim = styled.div`
     height: 100vh;
+
+    @media only screen and (max-width: 920px) {
+        height: auto;
+    }
 `;
 
 export const HomeContainer = styled.div`
@@ -21,12 +25,24 @@ export const HomeContainer = styled.div`
 
 export const Projetos = styled.div`
     height: 100vh;
+
+    @media only screen and (max-width: 920px) {
+        height: auto;
+    }
 `;
 
 export const Contato = styled.div`
     height: 100vh;
+
+    @media only screen and (max-width: 920px) {
+        height: auto;
+    }
 `;
 
 export const Tecnologias = styled.div`
     height: 65vh;
+
+    @media only screen and (max-width: 700px) {
+        height: auto;
+    }
 `;

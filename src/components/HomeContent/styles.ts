@@ -15,6 +15,12 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media only screen and (max-width: 970px) {
+        width: 70vw;
+    }
+
+    
 `;
 
 export const Content = styled.main`
@@ -57,6 +63,22 @@ export const Content = styled.main`
             margin-right: 10%;
         }
     }
+
+    @media only screen and (max-width: 970px) {
+        h1 {
+            font-size: 2.9vw;
+        }
+
+        h2 {
+            font-size: 2vw;
+        }
+
+        button {
+            width: 25vw;
+            font-size: 1.6vw;
+            margin: auto;
+        }
+    }
 `;
 
 export const ContainerIcones = styled.div`
@@ -77,14 +99,23 @@ export const Icone = styled.img`
     width: 45px;
     height: 45px;
     margin: 0 33px;
-`;
+
+    @media only screen and (max-width: 970px) {
+        width: 5vw;
+        margin: 10px 2vw;
+    }
+`;  
 
 export const ImageHome = styled.img`
-    max-width: 300px;
-    min-width: 280px;
-    max-height: 300px;
-    min-height: 280px;
+    width: 300px;
+    height: 300px;
 
     border-radius: 50%;
     margin-left: 50px;
+
+    @media only screen and (max-width: 970px) {
+        width: 30vw;
+        height: 30vw;
+        margin-left: 6vw;
+    }
 `;
