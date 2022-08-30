@@ -6,7 +6,13 @@ export const Container = styled.div`
     height: 100vh;
     margin: auto;
     background-color: var(--content-background);
-    padding: 5rem 3.7rem 25px 3.7rem;
+    padding: 5.8rem 3.7rem 25px 3.7rem;
+
+    @media only screen and (min-width: 1500px) {
+        h1 {
+            font-size: 2.2vw;
+        }
+    }
 `;
 
 export const Content = styled.main`
@@ -32,6 +38,29 @@ export const Content = styled.main`
 
         .icones {
             margin-top: 20px;
+        }
+    }
+
+    @media only screen and (min-width: 1500px) {
+        
+        .email, .fone, .social {
+            margin-top: 10vh;
+
+            h2 {
+                font-size: 2vw;
+            }
+            
+            h3, a {
+                text-align: left;
+                margin-left: 35px;
+                margin-top: 10px;
+                text-decoration: none;
+                color: inherit;
+                font-family: var(--fonte-padrao);
+                font-weight: normal;
+
+                font-size: 1.4vw;
+            }
         }
     }
 

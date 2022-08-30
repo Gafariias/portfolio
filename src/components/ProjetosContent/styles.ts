@@ -6,16 +6,21 @@ export const Container = styled.main`
     min-height: 100vh;
     max-height: auto;
     margin: auto;
-    padding: 4.4rem 3.7rem 25px 3.7rem;
+    padding: 5.8rem 3.7rem 25px 3.7rem;
+
+    display: flex;
+    flex-direction: column;
 `;
 
 export const Content = styled.div`
+
     h3 {
         margin-top: 5px;
         width: 100%;
         
         display: flex;
         justify-content: flex-end;
+        
 
         a {    
             text-align: right;

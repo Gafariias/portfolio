@@ -8,8 +8,10 @@ import {
 export function ProjetosContent() {
     return(
         <Container>
+            
+            <h1>Projetos</h1>
             <Content>
-                <h1>Projetos</h1>
+                
 
                 <ContainerProjetos>
                     

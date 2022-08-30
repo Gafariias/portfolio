@@ -5,6 +5,7 @@ import {
 
 export function SobreMimContent() {
     return(
+        
         <Container>
             <Content>
                 <h1>Sobre mim</h1>
