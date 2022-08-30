@@ -29,6 +29,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: var(--background);
         font-family: var(--fonte-normal);
+        overflow-x: hidden;
 
         -webkit-font-smoothing: antialiased;
     }

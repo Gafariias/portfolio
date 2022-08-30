@@ -14,9 +14,10 @@ export function HomeContent() {
     return(
         <Container id='HomeContent'>
             <Content>
-                <h1>Gabriel Farias</h1>
-
-                <h2>Sou um desenvolvedor Full-Stack Java</h2>
+                <div className="texto">
+                    <h1>Gabriel Farias</h1>
+                    <h2>Sou um desenvolvedor Full-Stack Java</h2>
+                </div>
                 
                 <a href={cv} download>
                     <button>

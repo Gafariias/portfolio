@@ -9,6 +9,7 @@ export const Container = styled.div`
     padding: 5.8rem 3.7rem 25px 3.7rem;
 
     @media only screen and (min-width: 1500px) {
+
         h1 {
             font-size: 2.2vw;
         }

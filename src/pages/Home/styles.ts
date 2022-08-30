@@ -10,7 +10,10 @@ export const SobreMim = styled.div`
 
     @media only screen and (max-width: 920px) {
         height: auto;
+        width: 100vw;
     }
+
+    
 `;
 
 export const HomeContainer = styled.div`
@@ -36,6 +39,7 @@ export const Contato = styled.div`
 
     @media only screen and (max-width: 920px) {
         height: auto;
+        width: 100vw;
     }
 `;
 

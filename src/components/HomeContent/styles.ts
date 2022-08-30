@@ -20,7 +20,11 @@ export const Container = styled.div`
         width: 70vw;
     }
 
-    
+    @media only screen and (max-width: 660px) {
+        flex-direction: column-reverse;
+
+        height: 85vh;
+    }
 `;
 
 export const Content = styled.main`
@@ -79,9 +83,38 @@ export const Content = styled.main`
             margin: auto;
         }
     }
+
+    @media only screen and (max-width: 660px) {
+        width: 50%;
+        
+        h1 {
+            margin-top: 1rem;
+            font-size: 1.3rem;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+        
+        button {
+            width: 13rem;
+            margin: 0 auto;
+
+            :hover {
+                width: 13rem;
+                margin-left: 0;
+            }
+        }
+    }
 `;
 
 export const ContainerIcones = styled.div`
+    margin: auto;
+
     .left {
         margin-left: 0;
     }
@@ -93,6 +126,10 @@ export const ContainerIcones = styled.div`
         width: 270px;
         height: 55px;
     }
+
+    @media only screen and (max-width: 660px) {
+        margin-left: 6%;
+    }
 `;
 
 export const Icone = styled.img`
@@ -103,6 +140,10 @@ export const Icone = styled.img`
     @media only screen and (max-width: 970px) {
         width: 5vw;
         margin: 10px 2vw;
+    }
+
+    @media only screen and (max-width: 660px) {
+        width: 2.5rem;
     }
 `;  
 
@@ -118,4 +159,9 @@ export const ImageHome = styled.img`
         height: 30vw;
         margin-left: 6vw;
     }
+
+    @media only screen and (max-width: 660px) {
+        width: 12rem;
+        height: 12rem;
+    } 
 `;
