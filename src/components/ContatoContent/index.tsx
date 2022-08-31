@@ -45,15 +45,15 @@ export function ContatoContent() {
 
                     <div className="icones">
                         <a href="https://github.com/Gafariias" target={'_blank'}>
-                            <GithubLogo size={80} weight="fill" />
+                            <GithubLogo className='icone' size={80} weight="fill" />
                         </a>
 
                         <a href="https://www.linkedin.com/in/gafarias/" target={'_blank'}>
-                            <LinkedinLogo size={80} weight="fill" />
+                            <LinkedinLogo className='icone' size={80} weight="fill" />
                         </a>
 
                         <a href="https://www.instagram.com/gafarias._/" target={'_blank'}>
-                            <InstagramLogo size={80} weight="fill" />
+                            <InstagramLogo className='icone' size={80} weight="fill" />
                         </a>
                     </div>
                 </div>  

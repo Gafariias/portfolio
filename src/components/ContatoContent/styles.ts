@@ -40,6 +40,12 @@ export const Content = styled.main`
         .icones {
             margin-top: 20px;
         }
+
+        @media only screen and (max-width: 750px) {
+            .icone {
+                width: 14.4vw;
+            }
+        }
     }
 
     @media only screen and (min-width: 1500px) {
@@ -68,10 +74,10 @@ export const Content = styled.main`
     @media only screen and (max-width: 600px) {
 
         h2 {
-            font-size: 4vw;
+            font-size: 1.4rem;
         }
         h3, a {
-            font-size: 3.2vw;
+            font-size: 1.1rem;
         }
     }  
 `;
