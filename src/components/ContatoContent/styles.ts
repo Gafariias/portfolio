@@ -49,7 +49,7 @@ export const Content = styled.main`
 
         @media only screen and (max-width: 500px) {
             .icone {
-                width: 10vw;
+                width: 9vw;
             }
         }
     }
