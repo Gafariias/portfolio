@@ -25,6 +25,19 @@ export const Container = styled.div`
 
         height: 85vh;
     }
+
+    @media only screen and (max-width: 500px) {
+        width: 90%;
+        height: 35rem;
+        padding-bottom: 2rem;
+        color: white;
+
+        //Efeito de vidro
+        background-color: rgba(71, 3, 3, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        border: 1px solid rgb(71, 3, 3, 0.3);
+    }
 `;
 
 export const Content = styled.main`
@@ -110,6 +123,10 @@ export const Content = styled.main`
             }
         }
     }
+
+    @media only screen and (max-width: 500px) {
+        width: 50%;
+    }
 `;
 
 export const ContainerIcones = styled.div`
@@ -129,6 +146,10 @@ export const ContainerIcones = styled.div`
 
     @media only screen and (max-width: 660px) {
         margin-left: 6%;
+    }
+
+    @media only screen and (max-width: 500px) {
+        margin-left: 12%;
     }
 `;
 
@@ -164,4 +185,9 @@ export const ImageHome = styled.img`
         width: 12rem;
         height: 12rem;
     } 
+
+    @media only screen and (max-width: 500px) {
+        margin: auto ;
+        margin-bottom: 1rem;
+    }
 `;
