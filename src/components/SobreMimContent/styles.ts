@@ -28,6 +28,7 @@ export const Content = styled.main`
         font-weight: 300;
         text-indent: 40px;
         line-height: 30px;
+        text-align: justify;
     }
 
     @media only screen and (min-width: 1500px) {

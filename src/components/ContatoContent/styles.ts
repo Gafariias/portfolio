@@ -43,7 +43,7 @@ export const Content = styled.main`
 
         @media only screen and (max-width: 750px) {
             .icone {
-                width: 14.4vw;
+                width: 12vw;
             }
         }
     }
