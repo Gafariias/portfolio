@@ -1,4 +1,3 @@
-import { Carousel } from '../../components/Carousel';
 import { Header } from '../../components/Header';
 import { HomeContent } from '../../components/HomeContent';
 import { ProjetosContent } from '../../components/ProjetosContent';
@@ -31,7 +30,7 @@ export function Home() {
             <Header/>
             <Principal id='Home'>
                 
-                <Carousel/>
+                
                 <HomeContainer>
                     <HomeContent/>
                     <Slider settings={settings}>

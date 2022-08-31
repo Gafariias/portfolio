@@ -23,7 +23,7 @@ export function ContatoContent() {
                         <Envelope size={35} weight={'fill'}/>
                         <h2>Email</h2>
                     </div>
-
+                    
                     <h3>Profissional: gabriel_ff@outlook.com</h3>
                     <h3>Pessoal: ffarias.gabriel2002@gmail.com</h3>
                 </div>
