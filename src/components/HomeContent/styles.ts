@@ -33,7 +33,7 @@ export const Container = styled.div`
         color: white;
 
         //Efeito de vidro
-        background-color: rgba(71, 3, 3, 0.2);
+        background-color: rgba(0, 0, 0, 0.2);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
         border: 1px solid rgb(71, 3, 3, 0.3);
