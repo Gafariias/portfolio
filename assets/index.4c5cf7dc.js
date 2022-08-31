@@ -140,7 +140,7 @@ Error generating stack: `+o.message+`
         color: white;
 
         //Efeito de vidro
-        background-color: rgba(71, 3, 3, 0.2);
+        background-color: rgba(0, 0, 0, 0.2);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
         border: 1px solid rgb(71, 3, 3, 0.3);
@@ -495,7 +495,13 @@ https://fb.me/react-async-component-lifecycle-hooks`)}if(typeof e.getDerivedStat
 
         @media only screen and (max-width: 750px) {
             .icone {
-                width: 12vw;
+                width: 14vw;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .icone {
+                width: 10vw;
             }
         }
     }
