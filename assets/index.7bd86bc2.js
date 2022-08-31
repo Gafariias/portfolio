@@ -431,6 +431,7 @@ https://fb.me/react-async-component-lifecycle-hooks`)}if(typeof e.getDerivedStat
         font-weight: 300;
         text-indent: 40px;
         line-height: 30px;
+        text-align: justify;
     }
 
     @media only screen and (min-width: 1500px) {
@@ -494,7 +495,7 @@ https://fb.me/react-async-component-lifecycle-hooks`)}if(typeof e.getDerivedStat
 
         @media only screen and (max-width: 750px) {
             .icone {
-                width: 14.4vw;
+                width: 12vw;
             }
         }
     }
