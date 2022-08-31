@@ -64,6 +64,24 @@ export const GlobalStyle = createGlobalStyle`
         display: flex;
         align-items: center;
         justify-content: center;
+
+        
+    }
+
+    .ReactModal__Overlay {
+        opacity: 0;
+        transform: translateX(-100px);
+        transition: all 500ms ease-in-out;
+    }
+
+    .ReactModal__Overlay--after-open {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    .ReactModal__Overlay--before-close {
+        opacity: 0;
+        transform: translateX(-100px);
     }
 
     .react-modal-content {
@@ -141,6 +159,31 @@ export const GlobalStyle = createGlobalStyle`
             filter: blur(0);
             border-radius: 10px;
             margin-top: 0;
+        }
+
+        @media only screen and (max-width: 500px) {
+            width: 20rem;
+            padding: 1rem;
+
+            .infos {
+                img{
+                    width: 17rem;
+                    height: 8rem;
+                    margin-left: 2%;
+                }
+                
+                .textos {
+                    width: 17rem;
+
+                    h2 {
+                        font-size: 1.3rem;
+                    }
+                    
+                    p {
+                        font-size: 0.89rem;
+                    }
+                }
+            }
         }
     }
 `;
