@@ -501,7 +501,7 @@ https://fb.me/react-async-component-lifecycle-hooks`)}if(typeof e.getDerivedStat
 
         @media only screen and (max-width: 500px) {
             .icone {
-                width: 10vw;
+                width: 9vw;
             }
         }
     }
