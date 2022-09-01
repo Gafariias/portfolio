@@ -453,6 +453,10 @@ https://fb.me/react-async-component-lifecycle-hooks`)}if(typeof e.getDerivedStat
     @media only screen and (max-width: 700px) {
         width: 100%;
         height: auto;
+
+         p {
+            text-indent: 1rem;
+         }
     }
 `;function yk(){return p(vk,{children:N(gk,{children:[p("h1",{children:"Sobre mim"}),p("p",{children:"Oi\xEA, tudo bem? Me chamo Gabriel, tenho 19 anos e sou um desenvolvedor de software Full-Stack Java. "}),p("p",{children:"Sempre fui muito apaixonado por tecnologia, jogo videogame desde crian\xE7a e sonhava em ser desenvolvedor de jogos. Com o tempo me aproximei da computa\xE7\xE3o e percebi que \xE9 onde eu me encaixo e vejo mais oportunidades em formar uma carreira na \xE1rea, por isso me especializei em desenvolvimento de software e a cada dia que passa eu sinto vontade de aprender e me especializar mais."}),p("p",{children:"Comecei estudando l\xF3gica com Python, depois segui para banco de dados SQL, front-end (HTML, CSS, SASS, JS e ReactJS com TS), e finalmente cheguei no Java, que apesar de mal falada, foi a linguagem que eu mais gostei de trabalhar, atualmente estou estudando frameworks de front-end (Angular e VueJS)."}),p("p",{children:"Meus trabalhos sempre ocorrem de forma pontual, organizada e com qualidade, priorizo a qualidade e nunca me canso de buscar coisas novas, possuo muita disposi\xE7\xE3o para crescer e aprender. Espero encontrar uma oportunidade para mostrar o meu potencial."})]})})}const wk=he.div`
     max-width: 56rem;
@@ -661,18 +665,18 @@ https://fb.me/react-async-component-lifecycle-hooks`)}if(typeof e.getDerivedStat
 
     .ReactModal__Overlay {
         opacity: 0;
-        transform: translateX(-100px);
-        transition: all 500ms ease-in-out;
+        
+        transition: all 300ms ease-in-out;
     }
 
     .ReactModal__Overlay--after-open {
         opacity: 1;
-        transform: translateX(0px);
+
     }
 
     .ReactModal__Overlay--before-close {
         opacity: 0;
-        transform: translateX(-100px);
+        
     }
 
     .react-modal-content {
@@ -772,6 +776,7 @@ https://fb.me/react-async-component-lifecycle-hooks`)}if(typeof e.getDerivedStat
                     
                     p {
                         font-size: 0.89rem;
+                        text-indent: 5px;
                     }
                 }
             }
