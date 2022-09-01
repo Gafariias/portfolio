@@ -70,18 +70,18 @@ export const GlobalStyle = createGlobalStyle`
 
     .ReactModal__Overlay {
         opacity: 0;
-        transform: translateX(-100px);
-        transition: all 500ms ease-in-out;
+        
+        transition: all 300ms ease-in-out;
     }
 
     .ReactModal__Overlay--after-open {
         opacity: 1;
-        transform: translateX(0px);
+
     }
 
     .ReactModal__Overlay--before-close {
         opacity: 0;
-        transform: translateX(-100px);
+        
     }
 
     .react-modal-content {
@@ -181,6 +181,7 @@ export const GlobalStyle = createGlobalStyle`
                     
                     p {
                         font-size: 0.89rem;
+                        text-indent: 5px;
                     }
                 }
             }

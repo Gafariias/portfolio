@@ -50,5 +50,9 @@ export const Content = styled.main`
     @media only screen and (max-width: 700px) {
         width: 100%;
         height: auto;
+
+         p {
+            text-indent: 1rem;
+         }
     }
 `;
