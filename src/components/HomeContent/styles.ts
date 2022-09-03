@@ -1,15 +1,21 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    //Efeito de vidro
+    background-color: rgb(0, 0, 0, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgb(0, 0, 0, 0.4);
     width: 56rem;
     height: 20.62rem;
-    background-color: var(--content-background);
     border-radius: 20px;
-    box-shadow: 2px -2px 4px rgba(0 0 0 0.35);
+    box-shadow: 2px -2px 4px rgba(0 0 0 0.3);
     position: absolute;
     top: 25%;
     bottom: 25%;
     margin: auto;
+    color: white;
     z-index: 2;
 
     display: flex;
@@ -32,11 +38,7 @@ export const Container = styled.div`
         padding-bottom: 2rem;
         color: white;
 
-        //Efeito de vidro
-        background-color: rgba(0, 0, 0, 0.2);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        border: 1px solid rgb(71, 3, 3, 0.3);
+        
     }
 `;
 

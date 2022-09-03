@@ -85,7 +85,11 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .react-modal-content {
-        background-color: var(--background);
+        background-color: rgb(0, 0, 0, 0.5);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(5.5px);
+        -webkit-backdrop-filter: blur(5.5px);
+        border: 1px solid rgb(0, 0, 0, 0.4);
         color: white;
         width: 25rem;
         max-width: 27rem;

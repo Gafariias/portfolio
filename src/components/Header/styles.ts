@@ -1,10 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    background-color: rgb(0, 0, 0, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgb(0, 0, 0, 0.4);
     position:fixed;
     width: 100vw;
     height: 4.45rem;
-    background-color: var(--content-background);
     padding: 20px;
     box-shadow: -2px -2px 4px black;
     z-index: 3;
