@@ -168,7 +168,7 @@ export const ContainerIcones = styled.div`
 
     @media only screen and (max-width: 660px) {
         margin: auto;
-        width: 11rem;
+        width: 10rem;
     }
 `;
 
