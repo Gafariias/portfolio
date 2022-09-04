@@ -275,7 +275,7 @@ Error generating stack: `+o.message+`
 
     @media only screen and (max-width: 660px) {
         margin: auto;
-        width: 11rem;
+        width: 10rem;
     }
 `,sr=he.img`
     width: 45px;
