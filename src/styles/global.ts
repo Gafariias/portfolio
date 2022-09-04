@@ -101,6 +101,10 @@ export const GlobalStyle = createGlobalStyle`
             font-size: 1.1rem;
         }
 
+        :active {
+            border: none;
+        }
+
         .infos {
             display: flex;
             flex-direction: column;

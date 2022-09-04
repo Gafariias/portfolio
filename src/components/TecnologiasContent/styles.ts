@@ -10,6 +10,10 @@ export const Container = styled.div`
     @media only screen and (max-width: 920px) {
         width: 100%;
     }
+
+    @media only screen and (max-width: 600px) {
+        padding: 5.8rem 1.5rem 25px 1.5rem;
+    }
 `;
 
 export const Content = styled.main`

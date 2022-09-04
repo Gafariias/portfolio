@@ -1,12 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    //Efeito de vidro
-    background-color: rgb(0, 0, 0, 0.5);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(5.5px);
-    -webkit-backdrop-filter: blur(5.5px);
-    border: 1px solid rgb(0, 0, 0, 0.4);
     width: 56rem;
     height: 20.62rem;
     border-radius: 20px;
@@ -21,6 +15,13 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    //Efeito de vidro
+    background-color: rgb(25, 25, 25, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgb(0, 0, 0, 0.4);
 
     @media only screen and (max-width: 970px) {
         width: 70vw;
@@ -43,7 +44,12 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.main`
-    width: 30%;
+    width: 40%;
+
+    .texto {
+        width: 17rem;
+        margin: auto;
+    }
 
     h2 {
         font-weight: 600;
@@ -60,7 +66,7 @@ export const Content = styled.main`
         color: white;
         font-size: 1rem;
         font-weight: 500;
-        margin: 0.7rem 0 1.2rem 10%;
+        margin: 1rem auto;
         
         display: flex;
         justify-content: center;
@@ -84,6 +90,11 @@ export const Content = styled.main`
     }
 
     @media only screen and (max-width: 970px) {
+
+        .texto {
+            width: 23vw;
+            margin: auto;
+        }
         h1 {
             font-size: 2.9vw;
         }
@@ -100,7 +111,11 @@ export const Content = styled.main`
     }
 
     @media only screen and (max-width: 660px) {
-        width: 50%;
+        width: 16rem;
+
+        .texto {
+            width: 10.3rem;
+        }
         
         h1 {
             margin-top: 1rem;
@@ -133,6 +148,7 @@ export const Content = styled.main`
 
 export const ContainerIcones = styled.div`
     margin: auto;
+    width: 16.7rem;
 
     .left {
         margin-left: 0;
@@ -146,8 +162,13 @@ export const ContainerIcones = styled.div`
         height: 55px;
     }
 
+    @media only screen and (max-width: 970px) {
+        width: 23vw;
+    }
+
     @media only screen and (max-width: 660px) {
-        margin-left: 6%;
+        margin: auto;
+        width: 11rem;
     }
 
     @media only screen and (max-width: 500px) {
@@ -184,6 +205,7 @@ export const ImageHome = styled.img`
     }
 
     @media only screen and (max-width: 660px) {
+        margin: auto;
         width: 12rem;
         height: 12rem;
     } 
