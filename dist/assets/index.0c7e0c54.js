@@ -251,7 +251,7 @@ Error generating stack: `+o.message+`
     }
 
     @media only screen and (max-width: 500px) {
-        width: 50%;
+        width: 80%;
     }
 `,Bw=he.div`
     margin: auto;
@@ -276,10 +276,6 @@ Error generating stack: `+o.message+`
     @media only screen and (max-width: 660px) {
         margin: auto;
         width: 11rem;
-    }
-
-    @media only screen and (max-width: 500px) {
-        margin-left: 12%;
     }
 `,sr=he.img`
     width: 45px;
