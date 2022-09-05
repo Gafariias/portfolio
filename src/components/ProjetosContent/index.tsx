@@ -12,13 +12,20 @@ export function ProjetosContent() {
             <h1>Projetos</h1>
             <Content>
                 <ContainerProjetos>
-                    
+
                     <Projeto 
                         path="2"
                         link="https://gafariias.github.io/stackx_list_react/"
-                        titulo="Lista de pessoas"
-                        text="Aplicativo com uma lista de pessoas feito em HTML, Styled components e ReactJs com typeScript. Projeto academico que eu realizei, consumindo a API randomuser.me." 
+                        titulo="Lista de pessoas React"
+                        text="Aplicativo com uma lista de pessoas feito em Styled components e ReactJs com typeScript. Projeto academico que eu realizei, consumindo a API randomuser.me." 
                         repo="https://github.com/GaFariias/stackx_list_react/"/>
+                        
+                    <Projeto 
+                    path="6"
+                    link="https://gafariias.github.io/stackx_list_angular/home"
+                    titulo="Lista de pessoas Angular"
+                    text="Mesmo aplicativo feito em React, mas dessa vez feito em angular utilizando SASS e consumindo a API randomuser.me"
+                    repo="https>//github.com/GaFariias/stackx_list_angular/"/>
 
                     <Projeto 
                         path="3"
