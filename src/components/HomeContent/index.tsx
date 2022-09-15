@@ -1,6 +1,6 @@
 import image from '../../assets/images/profile.jpeg'
 import { icones } from '../../assets/assets';
-import cv from '../../assets/documents/CV - Gabriel Farias.pdf'
+import cv from '../../assets/documents/CV.pdf'
 import { 
     Container,
     Content,
