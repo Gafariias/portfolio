@@ -19,7 +19,7 @@ export function HomeContent() {
                     <h2>Sou um desenvolvedor Full-Stack Java</h2>
                 </div>
                 
-                <a href={cv} download>
+                <a href={cv} download="CV-Gabriel_Farias">
                     <button>
                     
                         <p>Baixar curriculo</p>

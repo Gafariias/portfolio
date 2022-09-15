@@ -75,7 +75,6 @@ export const Content = styled.main`
 
         :hover {
             width: 13.7rem;
-            margin-left: 8%;
         }
         
         p {
@@ -135,8 +134,7 @@ export const Content = styled.main`
             margin: 0 auto;
 
             :hover {
-                width: 13rem;
-                margin-left: 0;
+                width: 13.5rem;
             }
         }
     }
