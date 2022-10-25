@@ -19,8 +19,6 @@ export const Container = styled.div`
     @media only screen and (max-width: 750px) {
         display: none;
     }
-
-    
 `;
 
 export const Content = styled.div`
@@ -37,6 +35,7 @@ export const Content = styled.div`
         font-size: 1rem;
         font-weight: 500;
         transition: .2s;
+        cursor: pointer;
 
         &:hover {
             padding: 0 1.1rem;
