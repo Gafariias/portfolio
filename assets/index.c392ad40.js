@@ -74,8 +74,6 @@ Error generating stack: `+o.message+`
     @media only screen and (max-width: 750px) {
         display: none;
     }
-
-    
 `,Pw=he.div`
     display: flex;
     align-items: center;
@@ -90,6 +88,7 @@ Error generating stack: `+o.message+`
         font-size: 1rem;
         font-weight: 500;
         transition: .2s;
+        cursor: pointer;
 
         &:hover {
             padding: 0 1.1rem;
@@ -669,6 +668,7 @@ https://fb.me/react-async-component-lifecycle-hooks`)}if(typeof e.getDerivedStat
     a {
         text-decoration: none;
         color: white;
+        cursor: pointer;
     }
     
     .react-modal-overlay {
