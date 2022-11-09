@@ -50,8 +50,12 @@ export default function Projeto(props: p) {
         case "5":
             image = imagens[5]
             break
-        case '6':
+        case "6":
             image = imagens[6]
+            break
+        case "7":
+            image = imagens[7]
+            break
     }
     return(
         

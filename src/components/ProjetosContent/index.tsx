@@ -28,6 +28,14 @@ export function ProjetosContent() {
                     repo="https>//github.com/GaFariias/stackx_list_angular/"/>
 
                     <Projeto 
+                        path="7"
+                        link="https://gafariias.github.io/stackx_list_vue/"
+                        titulo="Lista de pessoas vue"
+                        text="Mesmo aplicativo feito em React, mas em vue, utilizando Tailwind para estilização"
+                        repo="https://github.com/Gafariias/stackx_list_vue"
+                    />
+
+                    <Projeto 
                         path="3"
                         link="https://gafariias.github.io/stackList/"
                         titulo="Criador de lista"
